@@ -1,0 +1,19 @@
+npm install --save react-native-router-flux
+
+#61BD8C
+
+import { Router, Scene } from 'react-native-router-flux'
+
+return ({
+	<Router sceneStyle={{ paddingTop:50}}>
+		<Scene key='Principal' component={Principal} initil title="Cara ou coroa" />
+		<Scene key='Principal' component={Principal} />
+		<Scene key='Principal' component={Principal} />
+	</Router>
+})
+
+Na principal
+
+import { Actions } from 'react-native-router-flux';
+
+onPress={ () => { Actions.sobrejogo() } }
